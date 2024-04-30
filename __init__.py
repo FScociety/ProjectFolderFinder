@@ -12,6 +12,7 @@ import bpy
 import os
 import subprocess
 from bpy.types import Operator
+import sys
 
 class OPEN_BLEND_FOLDER_OT_open_file_folder(Operator):
     bl_idname = "file.open_blend_folder"
